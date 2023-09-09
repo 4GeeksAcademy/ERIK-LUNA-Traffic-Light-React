@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import "../../styles/Semaforo.css";
 
 
 //create your first component
@@ -53,10 +53,14 @@ function Semaforo ()  {
 
 	return (
 		<>
-		<button style={{backgroundColor: rojoBackground}} onClick={rojo}>rojo</button>
-		<button style={{backgroundColor: amarilloBackground}} onClick={amarillo}>amarillo</button>
-		<button style={{backgroundColor: verdeBackground}} onClick={verde}>verde</button>
-		
+		<div className= " semaforo-container" >
+		<button style={{backgroundColor: rojoBackground, width: 150,
+    height: 150, margin:5, borderRadius:100}} onClick={rojo}>rojo</button>
+		<button style={{backgroundColor: amarilloBackground, width: 150,
+    height: 150, margin:5, borderRadius:100,}} onClick={amarillo}>amarillo</button>
+		<button style={{backgroundColor: verdeBackground, width: 150,
+    height: 150, margin:5, borderRadius:100}} onClick={verde}>verde</button>
+		</div>
 			
 	
 		</>
