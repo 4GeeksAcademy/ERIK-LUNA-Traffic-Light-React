@@ -55,11 +55,11 @@ function Semaforo ()  {
 		<>
 		<div className= " semaforo-container" >
 		<button style={{backgroundColor: rojoBackground, width: 150,
-    height: 150, margin:5, borderRadius:100}} onClick={rojo}>rojo</button>
+    height: 150, marginTop:30,borderRadius:100}} onClick={rojo}>rojo</button>
 		<button style={{backgroundColor: amarilloBackground, width: 150,
-    height: 150, margin:5, borderRadius:100,}} onClick={amarillo}>amarillo</button>
+    height: 150, margin:15, borderRadius:100,}} onClick={amarillo}>amarillo</button>
 		<button style={{backgroundColor: verdeBackground, width: 150,
-    height: 150, margin:5, borderRadius:100}} onClick={verde}>verde</button>
+    height: 150, margin:0, borderRadius:100}} onClick={verde}>verde</button>
 		</div>
 			
 	
